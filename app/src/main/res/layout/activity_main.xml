@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:screenOrientation="portrait"
+    >
+
+    <TextView
+        android:id="@+id/textVievCim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kockadobás játék"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/textViewJatekos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Játékos"
+        android:layout_below="@id/textVievCim"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/imageViewJatekos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kocka1"
+        android:layout_below="@id/textViewJatekos"
+        android:layout_centerHorizontal="true"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/textViewGep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gep"
+        android:layout_below="@id/imageViewJatekos"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/imageViewGep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kocka1"
+        android:layout_below="@id/textViewGep"
+        android:layout_centerHorizontal="true"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/textViewEredmeny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eredmeny:"
+        android:layout_below="@id/imageViewGep"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        ></TextView>
+
+    <Button
+        android:id="@+id/buttonDobas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dobás"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:background="#ff0000"
+        ></Button>
+
+
+</RelativeLayout>
